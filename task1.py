@@ -17,7 +17,7 @@ print(f"Leftover slices: {leftover}")
 
 slices = party_pizza_mini ** 2 + large + medium
 share = slices // people
-leftover = leftover = slices % people
+leftover = slices % people
 print(f"Each person gets: {share}")
 print(f"Leftover slices: {leftover}")
 print("...for Mr. Hollow Leg")
