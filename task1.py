@@ -15,8 +15,8 @@ print(f"Leftover slices: {leftover}")
 
 #Mom says "Wait, Brandon’s coming. We’re going to need more pizza. I’ll upgrade the mini to a party_pizza instead. It’s the same as 2 minis. Hopefully the leftovers will be enough to fill his hollow leg.”
 
-slices = party_pizza_mini ** 2
-share = share = slices // people
+slices = party_pizza_mini ** 2 + large + medium
+share = slices // people
 leftover = leftover = slices % people
 print(f"Each person gets: {share}")
 print(f"Leftover slices: {leftover}")
